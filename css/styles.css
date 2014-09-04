@@ -1,6 +1,6 @@
 body {
-  font-family: 'Merriweather', "Helvetica Neue", Helvetica, Arial, sans-serif;
-  font-size: 14px;
+  font-family: 'Open Sans', "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
   line-height: 1.428571429;
   color: #333333;
   background-color: #ffffff;
@@ -29,11 +29,6 @@ a:hover {
   text-align: center;
 }
 
-/*p {
-  margin: 0 0 10px;
-}
-*/
-
 hr {
   margin-top: 20px;
   margin-bottom: 20px;
@@ -42,16 +37,21 @@ hr {
 }
 
 
-@media (min-width: 768px) {
-
-}
-
-@media (min-width: 1200px) {
+@media (max-width: 520px) {
+  #main {
+    width: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 
 }
 
 h1,h2{
-  font-family:'Open Sans', "Cambria", Georgia, serif;
+  font-family:'Fjalla One', "Cambria", Georgia, serif;
+  font-size: 3em;
+  font-weight: normal;
+  -webkit-margin-before: 0.15em;
+  -webkit-margin-after: -0.2em;
 }
 
 .centered{
