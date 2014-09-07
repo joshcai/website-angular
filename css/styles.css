@@ -54,8 +54,9 @@ h1,h2{
   font-family:'Fjalla One', "Cambria", Georgia, serif;
   font-size: 3em;
   font-weight: normal;
-  -webkit-margin-before: 0.15em;
-  -webkit-margin-after: -0.2em;
+  color: #555;
+  margin-top: .15em;
+  margin-bottom: -0.2em;
 }
 
 .centered{
