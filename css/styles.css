@@ -12,12 +12,20 @@ body {
 }
 
 a {
-  color: #428bca;
+  color: #69BE28;
   text-decoration: none;
 }
 
 a:hover {
-  color: #2a6496;
+  color: #C9DD03;
+}
+
+a .socicon {
+  color: #E98300;
+}
+
+a .socicon:hover {
+  color: #FFB612;
 }
 
 .img-circle {
