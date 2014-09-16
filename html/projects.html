@@ -1,6 +1,15 @@
-<div ng-repeat="project in projects">
-  <a href="{{ project.link }}">
-    <h4>{{ project.name }}</h4>
-  </a>
-  <p>{{ project.desc }}</p>
+<div class="text-center">
+    <span class="caps">PROJECTS</span>
+</div>
+<div id="projects" class="large-width centered">
+  <div ng-repeat="project in projects" class="col text-center">
+    <div class="padded">
+      <a href="{{ project.link }}">
+        <h4>{{ project.name }}</h4>
+      </a>
+      <p>{{ project.desc }}</p>
+    </div>
+  </div>
+  <div class="clear">
+  </div>
 </div>
